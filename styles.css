@@ -1,0 +1,14 @@
+#press {
+    position:relative;
+    width:150px;
+    height:50px;
+    font-size:25px;
+    background-color: yellow;
+    display:block;
+    font-family:fantasy;
+}
+
+input{
+    width:500px;
+    height:25px
+}
