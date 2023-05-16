@@ -1,6 +1,5 @@
 //ARRAY OF DATA
 let myLeads=[]
-//document.getElementById('hide-btn').style.visibility = 'hidden'
 let ishidden=true
 //VARIABLES
 const buttonEl=document.getElementById('press')
