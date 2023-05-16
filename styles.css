@@ -1,18 +1,36 @@
-button {
+body {
+    position:relative;
+    margin:0;
+    padding:10px;
+    min-width:400px;
+    
+    background-image: url('bgg.jpg');
+    
+      
+}
+div{
+    z-index: 1;
+}
+div button {
+    border-radius: 20px;
     position:relative;
     width:150px;
     height:50px;
     font-size:25px;
-    background-color: yellow;
+    background-color: rgb(245, 245, 13);
     display:block;
     font-family:fantasy;
-    display:inline-block
+    display:inline;
+    color:black
 }
 
 input{
+    z-index: 1;
     display:block;
     width:500px;
     height:25px;
+    color:black;
+    border-radius: 30px;
 }
 
 ul{
@@ -21,7 +39,7 @@ ul{
     padding-left: 0;
 }
 a{
-    color:darkgreen;
+    color:white;
 
 }
 li{
